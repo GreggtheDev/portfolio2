@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Shades of gray */
+    padding-top: 50px; /* Add padding to the body to prevent content from being hidden behind the navbar */
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed; /* Fix the position of the navbar */
+    top: 0; /* Position it at the top of the page */
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1; /* Ensure it stays on top of other content */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add your animations here */
